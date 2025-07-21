@@ -69,7 +69,7 @@ TALKVERSE/
 
 ## 🧩 Features
 
-- 🔐 User Authentication (JWT or Session-based)
+- 🔐 User Authentication JWT token.
 - 💬 Real-time or Async Messaging Logic
 - 🗃️ Modular Folder Architecture
 - ♻️ Reusable Components and Hooks
@@ -127,44 +127,42 @@ npm run dev
 
 ---
 
-## 🌍 API Endpoints (Example)
+## 🌍 API Endpoints
 
-| Method | Endpoint           | Description            |
-|--------|--------------------|------------------------|
-| GET    | `/api/messages`    | Fetch all messages     |
-| POST   | `/api/messages`    | Send a new message     |
-| GET    | `/api/users/:id`   | Get user profile       |
-| POST   | `/api/auth/login`  | Login user             |
-
-> Customize this table based on your actual backend routes.
+| Method | Endpoint                      | Description                            |
+|--------|-------------------------------|----------------------------------------|
+| POST   | `/api/auth/register`          | Register a new user                    |
+| POST   | `/api/auth/login`             | Login user                             |
+| GET    | `/api/users`                  | Get all users (with optional search)   |
+| GET    | `/api/users/:id`              | Get a specific user profile by ID      |
+| POST   | `/api/chats`                  | Access or create one-to-one chat       |
+| GET    | `/api/chats`                  | Get all user chats                     |
+| POST   | `/api/chats/group`            | Create a new group chat                |
+| POST   | `/api/messages`               | Send a new message                     |
+| GET    | `/api/messages/:chatId`       | Fetch all messages in a chat           |
 
 ---
 
-## 📸 Screenshots 
-
-> Add your screenshots here for pages like Login, Chat Room, 404, etc.
-
-```markdown
 ## 🖼️ Screenshots
 
 ### 📝 SignUp Interface
-![Chat UI](frontend/assets/screenshots/signupPage.png)
+![SignUp Page](frontend/assets/screenshots/signupPage.png)
 
 ### 🔐 Login Page
-![Login](frontend/assets/screenshots/loginPage.png)
+![Login Page](frontend/assets/screenshots/loginPage.png)
 
 ### 🧭 Onboarding Interface
-![Chat UI](frontend/assets/screenshots/onboardingPAe.png)
+![Onboarding Page](frontend/assets/screenshots/onboardingPAe.png)
 
-### 🏠 home Page
-![Login](frontend/assets/screenshots/homePage.png)
+### 🏠 Home Page
+![Home Page](frontend/assets/screenshots/homePage.png)
 
 ### 💬 Chat Interface
-![Chat UI](frontend/assets/screenshots/chatPage.png)
+![Chat Page](frontend/assets/screenshots/chatPage.png)
 
 ### 🔔 Notifications Page
-![Login](frontend/assets/screenshots/notificationsPage.png)
-```
+![Notifications Page](frontend/assets/screenshots/notificationsPage.png)
+
 
 ---
 
