@@ -163,20 +163,9 @@ export const THEMES = [
 ];
 
 export const LANGUAGES = [
-  "English",
-  "Spanish",
-  "French",
-  "German",
-  "Mandarin",
-  "Japanese",
-  "Korean",
-  "Hindi",
-  "Russian",
-  "Portuguese",
-  "Arabic",
-  "Italian",
-  "Turkish",
-  "Dutch",
+  "Telugu", "Tamil", "Kannada", "Malayalam", "Odia", "Assamese", "Sanskrit", "Marathi",
+  "Gujarati", "Bengali", "Urdu", "English", "Spanish", "French", "German", "Mandarin",
+  "Japanese", "Korean", "Hindi", "Russian", "Portuguese", "Arabic", "Italian", "Turkish", "Dutch"
 ];
 
 export const LANGUAGE_TO_FLAG = {
@@ -188,10 +177,21 @@ export const LANGUAGE_TO_FLAG = {
   japanese: "jp",
   korean: "kr",
   hindi: "in",
+  telugu: "in",
+  tamil: "in",
+  kannada: "in",
+  malayalam: "in",
+  odia: "in",
+  assamese: "in",
+  sanskrit: "in",
+  marathi: "in",
+  gujarati: "in",
+  bengali: "in",
+  urdu: "pk",
   russian: "ru",
   portuguese: "pt",
   arabic: "sa",
   italian: "it",
   turkish: "tr",
-  dutch: "nl",
+  dutch: "nl"
 };
